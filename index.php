@@ -15,7 +15,7 @@ $db = new MysqliDb(
     $config['db_pass'],
     $config['db_name']
 );
-
+// test
 $model = new UserModel($db);
 $controller = new UserController($model);
 
