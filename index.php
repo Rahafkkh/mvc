@@ -16,9 +16,12 @@ $db = new MysqliDb(
     $config['db_name']
 );
 // test
+
 $model = new UserModel($db);
 $controller = new UserController($model);
 
+
+// 😂😂😂😂😂
 if (method_exists($controller, $action)) {
     $controller->$action();
 } else {
